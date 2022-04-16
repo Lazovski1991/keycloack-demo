@@ -1,0 +1,15 @@
+server:
+  port: 8090
+
+keycloak:
+  realm: "pet"
+  auth-server-url: http://localhost:8181/auth
+  ssl-required: external
+  resource: "pet-service"
+  credentials:
+    secret: 1wSOMsu5NDEYbJH4tPlmSJZKFYsA02aQ
+  use-resource-role-mappings: true
+  bearer-only: true
+
+
+
