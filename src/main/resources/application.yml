@@ -3,13 +3,11 @@ server:
 
 keycloak:
   realm: "pet"
-  auth-server-url: http://localhost:8181/auth
+  auth-server-url: https://javaforall.tech/oauth/auth
   ssl-required: external
   resource: "pet-service"
   credentials:
-    secret: 1wSOMsu5NDEYbJH4tPlmSJZKFYsA02aQ
+    secret: 3366cef5-3f26-45bc-84c4-fc22f7b73050
   use-resource-role-mappings: true
   bearer-only: true
-
-
 
